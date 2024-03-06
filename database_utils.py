@@ -76,7 +76,7 @@ class DatabaseConnector:
         UPDBAPI = 'psycopg2'
         DBHOST = 'localhost'
         USER = 'postgres'
-        PASSWORD2 = 'I1s9a9a7c1997!'
+        PASSWORD2 = input('Please enter password to database: ')
         DATABASE = 'sales_data'
         PORT = 5432
         
